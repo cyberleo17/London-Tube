@@ -24,25 +24,20 @@ Algorithms Used
 1. Breadth-First Search (BFS)
 Used for finding the shortest path in terms of the number of stops.
 Iterative algorithm with O(V + E) time complexity, where V is the number of vertices and E is the number of edges.
-Efficiency Improvement:
+Efficiency Improvement:Ensures minimal stops between stations, improving route accuracy.
 
-Ensures minimal stops between stations, improving route accuracy.
 2. Depth-First Search (DFS)
 Used for exploring all paths and detecting cycles in the graph.
 Time complexity: O(V + E).
-Efficiency Improvement:
+Efficiency Improvement:Provides an alternative traversal mechanism for scenarios requiring full exploration.
 
-Provides an alternative traversal mechanism for scenarios requiring full exploration.
-3. Transitive Closure
+4. Transitive Closure
 Constructs the reachability matrix of the graph to determine connectivity.
 Time complexity: O(V^3) for dense graphs.
-Efficiency Improvement:
+Efficiency Improvement: Optimizes pre-computation of reachable stations, improving query response times.
 
-Optimizes pre-computation of reachable stations, improving query response times.
 4. Topological Sorting
 Sorts vertices in acyclic graphs for dependency resolution.
 Used in advanced features like detecting line priorities.
 Time complexity: O(V + E).
-Efficiency Improvement:
-
-Simplifies handling of directed dependencies in the Tube network.
+Efficiency Improvement:Simplifies handling of directed dependencies in the Tube network.
