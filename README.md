@@ -29,15 +29,18 @@ Efficiency Improvement:Ensures minimal stops between stations, improving route a
 2. Depth-First Search (DFS)
 Used for exploring all paths and detecting cycles in the graph.
 Time complexity: O(V + E).
+
 Efficiency Improvement:Provides an alternative traversal mechanism for scenarios requiring full exploration.
 
 4. Transitive Closure
 Constructs the reachability matrix of the graph to determine connectivity.
 Time complexity: O(V^3) for dense graphs.
+
 Efficiency Improvement: Optimizes pre-computation of reachable stations, improving query response times.
 
 4. Topological Sorting
 Sorts vertices in acyclic graphs for dependency resolution.
 Used in advanced features like detecting line priorities.
 Time complexity: O(V + E).
+
 Efficiency Improvement:Simplifies handling of directed dependencies in the Tube network.
