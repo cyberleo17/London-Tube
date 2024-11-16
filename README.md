@@ -14,10 +14,13 @@ Where are you starting (done to quit)? Stratford
 Where are you going (done to quit)? Queensway
 
 Instructions:
+
 Take the Central line from Stratford to Queensway
 Getting Started
 Prerequisites
+
 Java Development Kit (JDK) 8 or above.
+
 An IDE like Eclipse or IntelliJ (optional).
 
 Algorithms Used
